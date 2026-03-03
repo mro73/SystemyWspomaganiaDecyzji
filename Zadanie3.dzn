@@ -1,0 +1,5 @@
+POSILEK = { Owoce, Frytki, Salatka, Skrzydelka, Paluszki, Zestaw_probny };
+
+ceny = [215, 275, 335, 355, 420, 580];
+
+budzet = 1505;
