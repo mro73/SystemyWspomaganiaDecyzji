@@ -1,6 +1,6 @@
 % Use this editor as a MiniZinc scratch book
-int: N = 8; % rozmiar szachownicy
-array[1..N] of var 1..N: rows; % rows[i] numer wiersza w którym stoi hetman w kolumnie i
+int: N = 8;
+array[1..N] of var 1..N: rows;
 
 include "alldifferent.mzn";
 

@@ -1,8 +1,8 @@
 include "alldifferent.mzn";
 
-int: S = 3;   % rozmiar małego kwadratu
-int: N = S * S; % rozmiar dużego kwadratu (planszy 9 x 9)
-set of int: PuzzleRange = 1..N; % zakres indeksów planszy od 1 do 9
+int: S = 3;
+int: N = S * S;
+set of int: PuzzleRange = 1..N;
 
 array[PuzzleRange, PuzzleRange] of 0..N: board = 
 [| 5,3,0, 0,7,0, 0,0,0

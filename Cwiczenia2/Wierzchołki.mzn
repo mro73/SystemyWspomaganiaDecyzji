@@ -1,7 +1,7 @@
 % Use this editor as a MiniZinc scratch book
 % Kolorowanie wierzchołków grafu
-int: n = 5; % liczba wierzchołków
-int: m = 6; % liczba krawędzi
+int: n = 5;
+int: m = 6;
 
 array[1..m, 1..2] of int: edges = 
 [| 1, 2
